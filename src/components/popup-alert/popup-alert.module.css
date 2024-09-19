@@ -1,0 +1,32 @@
+.bgGradient {
+  background: rgb(140, 5, 14);
+  background: -moz-linear-gradient(
+    109deg,
+    rgba(140, 5, 14, 1) 0%,
+    rgba(198, 4, 15, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    109deg,
+    rgba(140, 5, 14, 1) 0%,
+    rgba(198, 4, 15, 1) 100%
+  );
+  background: linear-gradient(
+    109deg,
+    rgba(140, 5, 14, 1) 0%,
+    rgba(198, 4, 15, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8c050e", endColorstr="#c6040f", GradientType=1);
+}
+
+.bgGradient2 > div {
+  margin: 0 !important;
+  width: max-content;
+  height: 50vh;
+}
+
+.popupBg {
+  background-image: url(../../../public/popup/popup-bg.png);
+  background-size: cover;
+  background-position: 50%;
+  height: 460px;
+}

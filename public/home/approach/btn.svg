@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208" height="208" viewBox="0 0 208 208">
+  <defs>
+    <filter id="Ellipse_12" x="0" y="0" width="208" height="208" filterUnits="userSpaceOnUse">
+      <feOffset dx="-11" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#0f2847"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2525" data-name="Group 2525" transform="translate(-815 -2130.692)">
+    <g id="Group_21" data-name="Group 21" transform="translate(877 2169)">
+      <g id="Ellipse_12-2" data-name="Ellipse 12" transform="translate(0 -0.308)" fill="none" stroke="#707070" stroke-width="7">
+        <circle cx="53" cy="53" r="53" stroke="none"/>
+        <circle cx="53" cy="53" r="49.5" fill="none"/>
+      </g>
+    </g>
+    <path id="arrow-narrow-circle-broken-up-right-svgrepo-com" d="M39.388,44.653V26.037m0,0H20.675m18.713,0L11.72,53.562M26.961,61.67a29.845,29.845,0,0,0,26.864-8.108,29.511,29.511,0,0,0,0-41.887,29.882,29.882,0,0,0-42.1,0A29.49,29.49,0,0,0,3.57,38.4" transform="translate(897.5 2189)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <g id="Group_22" data-name="Group 22" transform="translate(850 2142)" opacity="0.16">
+      <g transform="matrix(1, 0, 0, 1, -35, -11.31)" filter="url(#Ellipse_12)">
+        <g id="Ellipse_12-3" data-name="Ellipse 12" transform="translate(35 11)" fill="none" stroke="#707070" stroke-width="17">
+          <circle cx="80" cy="80" r="80" stroke="none"/>
+          <circle cx="80" cy="80" r="71.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

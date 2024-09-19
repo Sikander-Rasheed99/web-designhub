@@ -1,0 +1,294 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    transition: all 0.3s;
+}
+
+html,
+body {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.__homeHeroGradientBg {
+    background: rgb(158, 75, 255);
+    background: -moz-radial-gradient(circle, rgba(158, 75, 255, 1) 0%, rgba(83, 40, 134, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(158, 75, 255, 1) 0%, rgba(83, 40, 134, 1) 100%);
+    background: radial-gradient(circle, rgba(158, 75, 255, 1) 0%, rgba(83, 40, 134, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9e4bff", endColorstr="#532886", GradientType=1);
+}
+
+.__logoDesignHeroGradientBg {
+    background: rgb(72, 229, 250);
+    background: -moz-radial-gradient(circle, rgba(72, 229, 250, 1) 0%, rgba(87, 80, 228, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(72, 229, 250, 1) 0%, rgba(87, 80, 228, 1) 100%);
+    background: radial-gradient(circle, rgba(72, 229, 250, 1) 0%, rgba(87, 80, 228, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#48e5fa", endColorstr="#5750e4", GradientType=1);
+}
+
+.__creativeCopywritingHeroGradientBg {
+    background: rgb(142, 138, 237);
+    background: -moz-radial-gradient(circle, rgba(142, 138, 237, 1) 0%, rgba(87, 80, 228, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(142, 138, 237, 1) 0%, rgba(87, 80, 228, 1) 100%);
+    background: radial-gradient(circle, rgba(142, 138, 237, 1) 0%, rgba(87, 80, 228, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8e8aed", endColorstr="#5750e4", GradientType=1);
+}
+
+.__digitalMarketingHeroGradientBg {
+    background: rgb(181, 108, 175);
+    background: -moz-radial-gradient(circle, rgba(181, 108, 175, 1) 0%, rgba(48, 0, 52, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(181, 108, 175, 1) 0%, rgba(48, 0, 52, 1) 100%);
+    background: radial-gradient(circle, rgba(181, 108, 175, 1) 0%, rgba(48, 0, 52, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b56caf", endColorstr="#300034", GradientType=1);
+}
+
+.__ecommerceHeroGradientBg {
+    background: rgb(167, 185, 255);
+    background: -moz-radial-gradient(circle, rgba(167, 185, 255, 1) 0%, rgba(16, 45, 64, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(167, 185, 255, 1) 0%, rgba(16, 45, 64, 1) 100%);
+    background: radial-gradient(circle, rgba(167, 185, 255, 1) 0%, rgba(16, 45, 64, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a7b9ff", endColorstr="#102d40", GradientType=1);
+}
+
+.__motionGraphicsHeroGradientBg {
+    background: rgb(115, 129, 0);
+    background: -moz-radial-gradient(circle, rgba(115, 129, 0, 1) 0%, rgba(11, 34, 24, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(115, 129, 0, 1) 0%, rgba(11, 34, 24, 1) 100%);
+    background: radial-gradient(circle, rgba(115, 129, 0, 1) 0%, rgba(11, 34, 24, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#738100", endColorstr="#0b2218", GradientType=1);
+}
+
+.__mobileApplicationHeroGradientBg {
+    background: rgb(214, 236, 71);
+    background: -moz-radial-gradient(circle, rgba(214, 236, 71, 1) 0%, rgba(54, 87, 28, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(214, 236, 71, 1) 0%, rgba(54, 87, 28, 1) 100%);
+    background: radial-gradient(circle, rgba(214, 236, 71, 1) 0%, rgba(54, 87, 28, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d6ec47", endColorstr="#36571c", GradientType=1);
+}
+
+
+.__btnGredient {
+    background: linear-gradient(to right, rgba(181, 108, 175, 1) 0%, rgba(48, 0, 52, 1) 100%);
+    /* background: radial-gradient(rgba(181, 108, 175, 1) 0%, rgba(48, 0, 52, 1) 100%); */
+}
+
+.__seoServicesHeroGradientBg {
+    background: rgb(68, 73, 84);
+    background: -moz-radial-gradient(circle, rgba(68, 73, 84, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(68, 73, 84, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(68, 73, 84, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#444954", endColorstr="#000000", GradientType=1);
+}
+
+.__marketingCollateralHeroGradientBg {
+    background: rgb(64, 75, 143);
+    background: -moz-radial-gradient(circle, rgba(64, 75, 143, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(64, 75, 143, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(64, 75, 143, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#404b8f", endColorstr="#000000", GradientType=1);
+}
+
+.__gradientBg2 {
+    background: rgb(16, 61, 117);
+    background: -moz-radial-gradient(circle, rgba(16, 61, 117, 1) 0%, rgba(15, 40, 71, 1) 99%);
+    background: -webkit-radial-gradient(circle, rgba(16, 61, 117, 1) 0%, rgba(15, 40, 71, 1) 99%);
+    background: radial-gradient(circle, rgba(16, 61, 117, 1) 0%, rgba(15, 40, 71, 1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#103d75", endColorstr="#0f2847", GradientType=1);
+}
+
+.__gradientBg3 {
+    background: rgb(22, 65, 117);
+    background: -moz-radial-gradient(circle, rgba(22, 65, 117, 1) 0%, rgba(3, 8, 14, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(22, 65, 117, 1) 0%, rgba(3, 8, 14, 1) 100%);
+    background: radial-gradient(circle, rgba(22, 65, 117, 1) 0%, rgba(3, 8, 14, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#164175", endColorstr="#03080e", GradientType=1);
+}
+
+.__reviewsCmp button.slick-arrow.slick-next {
+    top: inherit;
+    right: 0;
+    bottom: 5px;
+    width: max-content;
+    height: 25px;
+    transform: inherit;
+    z-index: 2;
+}
+
+.__reviewsCmp button.slick-arrow.slick-next::before {
+    content: url(../../public/rightArrowSlick.svg);
+}
+
+.__reviewsCmp button.slick-arrow.slick-prev {
+    top: inherit;
+    right: 70px;
+    left: inherit;
+    bottom: 5px;
+    width: max-content;
+    height: 25px;
+    transform: inherit;
+    z-index: 2;
+}
+
+.__reviewsCmp button.slick-arrow.slick-prev::before {
+    content: url(../../public/leftArrowSlick.svg);
+}
+
+/* .__reviewsCmp .slick-slide {
+    min-height: 300px;
+} */
+
+.__reviewsCmp ul.slick-dots {
+    bottom: 10px;
+    width: max-content;
+    left: 0;
+    display: flex !important;
+    gap: 0.5rem;
+}
+
+.__reviewsCmp ul.slick-dots li {
+    display: block;
+    margin: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+.__reviewsCmp ul.slick-dots li button {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    opacity: 1;
+}
+
+.__reviewsCmp ul.slick-dots li button::before,
+.__reviewsCmp ul.slick-dots li button::after {
+    display: none;
+}
+
+.__reviewsCmp ul.slick-dots li.slick-active {
+    background-color: #0F2847;
+}
+
+.__reviewsCmp ul.slick-dots::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    display: block;
+    background-color: #707070;
+    width: 380px;
+    height: 2px;
+    margin-left: 16px;
+}
+
+@media (max-width: 1299px) {
+    .__reviewsCmp ul.slick-dots::after {
+        width: 240px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .__reviewsCmp ul.slick-dots::after {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    br {
+        display: none;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(181, 108, 175, 1) 0%, rgba(48, 0, 52, 1) 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+}
+
+.__awardsSlider .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.__awardsSlider img {
+    display: block !important;
+    margin: auto;
+    max-width: inherit;
+    width: inherit !important;
+}
+
+.__reviewsSlider .slick-dots {
+    display: flex !important;
+    width: max-content;
+    position: static;
+    margin-top: 30px;
+    gap: 1rem;
+}
+
+.__reviewsSlider .slick-dots button {
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+
+.__reviewsSlider .slick-dots button::before {
+    display: none;
+}
+
+.__reviewsSlider .slick-dots li {
+    margin: 0;
+    width: max-content;
+    height: max-content;
+}
+
+.__reviewsSlider .slick-dots li.slick-active button {
+    background-color: #3283FF;
+    border: inherit;
+}
+
+.slick-track {
+    align-items: center;
+    display: flex !important;
+}
+
+.icon-bg {
+    background: url(../../public/plan-6-icon-bg.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 20px 0 30px 0;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 35px;
+}
+
+.card_body .h2_before::before {
+    background: transparent linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5), transparent) repeat scroll 0 0;
+}

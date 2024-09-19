@@ -1,0 +1,40 @@
+/* Animations */
+.__pulse {
+    -webkit-animation: pulse 1s infinite ease-in-out alternate;
+    animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+/* Gradients */
+.__topRatedBg {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(164, 213, 255, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(164, 213, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(164, 213, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#a4d5ff", GradientType=1);
+}
+
+.__packagesBlueScroll::-webkit-scrollbar-track {
+    background: #eaeaea;
+}
+
+.__packagesBlueScroll::-webkit-scrollbar-thumb {
+    background: #0d3163;
+}
+
+.__packagesOrangeScroll::-webkit-scrollbar-track {
+    background: #eaeaea;
+}
+
+.__packagesOrangeScroll::-webkit-scrollbar-thumb {
+    background: #f17724;
+}

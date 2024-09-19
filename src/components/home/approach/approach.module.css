@@ -1,0 +1,44 @@
+.__cardsWrapper .__cards {
+    transition: all 1s ease-in-out;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.__cardsWrapper .__cards::before {
+    opacity: 1;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(201deg, rgba(0, 0, 0, 0.47102591036414565) 0%, rgba(15, 40, 71, 0.6671043417366946) 100%);
+    background: -webkit-linear-gradient(201deg, rgba(0, 0, 0, 0.47102591036414565) 0%, rgba(15, 40, 71, 0.6671043417366946) 100%);
+    background: linear-gradient(201deg, rgba(0, 0, 0, 0.47102591036414565) 0%, rgba(15, 40, 71, 0.6671043417366946) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#0f2847", GradientType=1);
+    transition: all 1s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+    .__cardsWrapper .__cards::before {
+        opacity: 0;
+    }
+
+    .__cardsWrapper .__cards h3 {
+        opacity: 0;
+    }
+
+    .__cardsWrapper:hover .__cards {
+        transform: inherit;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .__cardsWrapper:hover .__cards::before,
+    .__cardsWrapper:hover .__cards h3 {
+        opacity: 1;
+    }
+}
